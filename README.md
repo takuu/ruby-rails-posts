@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### To Launch
 
-* Ruby version
+```sh
+ruby server
+```
 
-* System dependencies
+supports following api
 
-* Configuration
+```sh
+fb_pages_most_liked_posts [-n MAX_POSTS_PER_PAGE] [-n TOP_POSTS_COUNT]
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+example url: http://localhost:3000/products?MAX_POSTS_PER_PAGE=7&TOP_POSTS_COUNT=10
